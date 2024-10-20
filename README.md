@@ -38,25 +38,22 @@ This project demonstrates a simple authentication system using **Express.js** as
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your-username/authentication-system.git
-cd authentication-system
+git clone https://github.com/imvikramathithan/Angular.git
+cd Angular
 ```
 
 ---
 
 ## **Backend Setup**
 
-1. **Navigate to Backend Folder**  
-   ```bash
-   cd backend
-   ```
 
-2. **Install Dependencies**  
+
+1. **Install Dependencies**  
    ```bash
    npm install express body-parser cors mongoose
    ```
 
-3. **Create `server.js`** and add the backend code:
+2. **Create `server.js`** and add the backend code:
    ```javascript
    const express = require('express');
    const mongoose = require('mongoose');
@@ -102,7 +99,7 @@ cd authentication-system
    app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}`));
    ```
 
-4. **Start the Backend Server**  
+3. **Start the Backend Server**  
    ```bash
    node server.js
    ```
