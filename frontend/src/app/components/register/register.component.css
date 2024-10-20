@@ -1,0 +1,60 @@
+/* Center the form on the page */
+.register-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background-color: #f8f9fa;
+}
+
+/* Style the form */
+.register-form {
+ width: 300px;
+ padding: 20px;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ background-color: white;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Group input elements with labels */
+.form-group {
+ margin-bottom: 15px;
+}
+
+label {
+ display: block;
+ margin-bottom: 5px;
+ font-weight: bold;
+}
+
+/* Style for input fields */
+.form-input {
+ width: 100%;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+
+/* Button styles */
+.submit-button {
+ width: 100%;
+ padding: 10px;
+ background-color: #007bff;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.submit-button:disabled {
+ background-color: #ccc;
+ cursor: not-allowed;
+}
+
+/* Login link styles */
+.login-link {
+ margin-top: 10px;
+ text-align: center;
+}
