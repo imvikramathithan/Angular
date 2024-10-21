@@ -112,7 +112,12 @@ cd Angular
    ```bash
    cd frontend
    ```
-2. **Update angular.json**
+
+2. **Install Dependencies**  
+   ```bash
+   npm install primeng primeicons primeflex @angular/http --force
+   ```
+3. **Update angular.json**
    ```bash
    "styles": [
      "src/styles.css",
@@ -120,10 +125,6 @@ cd Angular
      "node_modules/primeng/resources/primeng.min.css",
      "node_modules/primeflex/primeflex.css"
    ]
-   ```
-3. **Install Dependencies**  
-   ```bash
-   npm install primeng primeicons primeflex @angular/http --force
    ```
 
 4. **Generate Components and Services**  
