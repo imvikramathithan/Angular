@@ -112,13 +112,21 @@ cd Angular
    ```bash
    cd frontend
    ```
-
-2. **Install Dependencies**  
+2. **Update angular.json**
+   ```bash
+   "styles": [
+     "src/styles.css",
+     "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+     "node_modules/primeng/resources/primeng.min.css",
+     "node_modules/primeflex/primeflex.css"
+   ]
+   ```
+3. **Install Dependencies**  
    ```bash
    npm install primeng primeicons primeflex @angular/http --force
    ```
 
-3. **Generate Components and Services**  
+4. **Generate Components and Services**  
    ```bash
    ng generate component components/login
    ng generate component components/register
@@ -127,7 +135,7 @@ cd Angular
    ng generate service services/auth
    ```
 
-4. **Configure Routing**  
+5. **Configure Routing**  
    Update `app.routes.ts`:  
    ```typescript
    import { Routes } from '@angular/router';
@@ -143,13 +151,13 @@ cd Angular
    ];
    ```
 
-5. **Update `app.component.html`**  
+6. **Update `app.component.html`**  
    ```html
    <router-outlet></router-outlet>
    <p-toast></p-toast>
    ```
 
-6. **Start the Frontend Server**  
+7. **Start the Frontend Server**  
    ```bash
    ng serve
    ```
